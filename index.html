@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- descriptionあると良い -->
+    <meta name="description" content="ASAMI YAMAMOTOのポートフォリオサイトです。" />
+    <!-- タイトルタグ忘れないで -->
+    <title>ASAMI YAMAMOTO | Portfolio website</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- google fonts Special Elite,Klee One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/favicon.svg">
+    <!-- original css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="wrapper">
+          <h1 class="logo">
+            <!-- ロゴはトップページへのリンクが期待されるのでa要素ほしい -->
+            <a href="./"><img src="./img/logo.jpg" alt="Asami Yamamoto" /></a>
+          </h1>
+          <nav>
+            <ul>
+              <li><a href="#artworks">Artworks</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#archivement">Archivement</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <video class="mainvisual" src="./img/ポートフォリオテスト.mp4" autoplay muted loop plays-inline></video>
+      <section id="artworks">
+        <h2 class="heading" data-en="Artworks">作品一覧</h2>
+        <div class="wrapper">
+          <ul class="artworks-list">
+            <li class="artworks-item"><a href="https://www.youtube.com/watch?v=Ee4IKYrUiNo" target="_blank"><img src="./img/テスト1.png" alt="作品1" /></a></li>
+            <li class="artworks-item"><a href="https://www.youtube.com/watch?v=AIbShU5YjYY" target="_blank"><img src="./img/テスト2.png" alt="作品2" /></a></li>
+            <li class="artworks-item"><img src="./img/テスト6.png" alt="作品3" /></li>
+            <li class="artworks-item"><img src="./img/テスト4.png" alt="作品4" /></li>
+            <li class="artworks-item"><img src="./img/テスト5.png" alt="作品5" /></li>
+            <li class="artworks-item"><img src="./img/getready.jpg" alt="作品6" /></li>
+          </ul>
+          <!-- <div class="link-wrapper"><a href="artworkindex.html" class="link-more">See More</a></div> -->
+        </div>
+      </section>
+      <section id="archivement">
+        <h2 class="heading" data-en="Archivement">納入実績</h2>
+        <div class="wrapper">
+          <ul class="artworks-list">
+            <li class="artworks-item"><img src="./img/テスト3.png" alt="作品1" /></li>
+          </ul>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-inner wrapper">
+          <div class="about-text">
+            <!-- 見出しの英単語は飾り -->
+            <!-- data属性とattr()関数が使えると完璧 -->
+            <h2 class="heading" data-en="About">自己紹介</h2>
+            <p>
+              たくさんの人に届けられる、WEBの世界が大好きです。
+            </p>
+
+          </div>
+          <div class="about-img">
+            <img src="./img/kokonattsuchiffusutoshinamonwotohhinkushitahankeki.jpg" alt="ASAMI YAMAMOTOのポートレート写真" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="contact">
+        <h2 class="heading" data-en="Contact">お問い合わせ</h2>
+        <a href="#">Email</a>
+      </section>
+      <small class="copyright">&copy; Asami Yamamoto</small>
+    </footer>
+  </body>
+</html>
