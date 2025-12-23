@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3e3c1;
+      }
+
+      .cls-2 {
+        fill: #333;
+        font-family: SpecialElite-Regular, 'Special Elite';
+        font-size: 50px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="24" cy="24" r="24"/>
+  <text class="cls-2" transform="translate(10.28 40.01)"><tspan x="0" y="0">A</tspan></text>
+</svg>
